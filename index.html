@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Card Toggle CSS - Prática</title>
+</head>
+
+<body>
+    <main class="container-bg">
+        <div class="container">
+            <div class="orcamento-produto">
+                <h3>bikcraft ou seguro?</h3>
+
+                <input type="radio" name="produto" id="bikcraft">
+                <label for="bikcraft">Bikcraft</label>
+
+                <input type="radio" name="produto" id="seguro">
+                <label for="seguro">Seguro</label>
+
+                <!-- ESTE É O CAMPO DAS BICICLETAS, VOCÊ PRECISA HABILITAR ELE QUANDO SELECIONAR O RADIO BIKCRAFT -->
+                <div class="orcamento-bicicleta">
+                    <h3>Escolha a sua:</h3>
+
+                    <input type="radio" name="bicicleta" id="bicicleta-bikcraft">
+                    <label for="bicicleta-bikcraft">Bikcraft <span>R$ 2499</span></label>
+                    <div class="bicicleta-descricao">
+                        <ul>
+                            <li>
+                                <img src="./img/eletrica.svg" alt="">
+                                Motor Elétrico
+                            </li>
+                            <li>
+                                <img src="./img/carbono.svg" alt="">
+                                Fibra de Carbono
+                            </li>
+                            <li>
+                                <img src="./img/velocidade.svg" alt="">
+                                40 km/h
+                            </li>
+                            <li>
+                                <img src="./img/rastreador.svg" alt="">
+                                Rastreador
+                            </li>
+                        </ul>
+                        <img src="./img/bicicleta2.png" alt="">
+                    </div>
+
+                    <input type="radio" name="bicicleta" id="bicicleta-magic">
+                    <label for="bicicleta-magic">Magic Might <span>R$ 4499</span></label>
+                    <div class="bicicleta-descricao">
+                        <ul>
+                            <li>
+                                <img src="./img/eletrica.svg" alt="">
+                                Motor Elétrico
+                            </li>
+                            <li>
+                                <img src="./img/carbono.svg" alt="">
+                                Fibra de Carbono
+                            </li>
+                            <li>
+                                <img src="./img/velocidade.svg" alt="">
+                                40 km/h
+                            </li>
+                            <li>
+                                <img src="./img/rastreador.svg" alt="">
+                                Rastreador
+                            </li>
+                        </ul>
+                        <img src="./img/bicicleta2.png" alt="">
+                    </div>
+
+                    <input type="radio" name="bicicleta" id="bicicleta-nebula">
+                    <label for="bicicleta-nebula">Nebula Cosmic <span>R$ 3499</span></label>
+                    <div class="bicicleta-descricao">
+                        <ul>
+                            <li>
+                                <img src="./img/eletrica.svg" alt="">
+                                Motor Elétrico
+                            </li>
+                            <li>
+                                <img src="./img/carbono.svg" alt="">
+                                Fibra de Carbono
+                            </li>
+                            <li>
+                                <img src="./img/velocidade.svg" alt="">
+                                40 km/h
+                            </li>
+                            <li>
+                                <img src="./img/rastreador.svg" alt="">
+                                Rastreador
+                            </li>
+                        </ul>
+                        <img src="./img/bicicleta2.png" alt="">
+                    </div>
+                </div>
+
+                <!-- ESTE É O CAMPO DO SEGURO, VOCÊ PRECISA HABILITAR ELE QUANDO SELECIONAR O RADIO SEGURO -->
+                <div class="orcamento-seguro">
+                    <h3>Escolha seu plano:</h3>
+
+                    <input type="radio" name="plano" id="plano-ouro">
+                    <label for="plano-ouro">Ouro <span>R$ 199</span></label>
+
+                    <input type="radio" name="plano" id="plano-prata">
+                    <label for="plano-prata">Prata <span>R$ 299</span></label>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
