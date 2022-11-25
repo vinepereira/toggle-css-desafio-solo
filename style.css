@@ -7,7 +7,6 @@
 
 body {
     background: rgb(173, 174, 196);
-   
 }
 
 ul {
@@ -20,7 +19,7 @@ img {
 }
 
 .container-bg {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +28,7 @@ img {
 .container {
     background: black;
     max-width: 460px;
+    width: 100%;
     margin: 0 20px;
     padding: 60px 40px;
     border-radius: 5px;
