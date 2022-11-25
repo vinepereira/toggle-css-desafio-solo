@@ -7,8 +7,7 @@
 
 body {
     background: rgb(173, 174, 196);
-    
-
+   
 }
 
 ul {
@@ -84,7 +83,7 @@ img {
     border: 0.5px solid transparent;
     font-weight: 600;
     background: #2E2E2E;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     display: block;
     cursor: pointer;
@@ -93,6 +92,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .orcamento-produto label:hover {
@@ -102,11 +102,13 @@ img {
 .orcamento-produto label::before {
     content: '';
     display: inline-block;
-    /* position: absolute; */
+    position: absolute;
     width: 10px;
     height: 10px;
-    border: 0.5px solid black;
+    border: 0.5px solid rgb(83, 83, 83);
     border-radius: 50%;
+    top: 12px;
+    left: 10px;
 }
 
 .orcamento-produto input:checked + label::before {
@@ -177,6 +179,9 @@ img {
 }
 
 @media (max-width: 450px) {
+    .container {
+        padding: 60px 30px;
+    }
     .bicicleta-descricao {
         grid-template-columns: 1fr;
     }
